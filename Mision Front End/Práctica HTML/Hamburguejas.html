@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesería Skinner</title>
+</head>
+<body>
+    <section>
+        <h1>Hamburguesería</h1>
+        <img src="logo-hamburguejas.png" alt="Logo hamburguejas">
+    </section>
+    <section>
+        <h2>Menú</h2>    
+        <h3>Clásicas</h3>
+        <ul>
+            <li><b>Simple.........................$500</b></li>
+            <li><b>Lechuga y tomate...............$550</b></li>
+            <li><b>Con queso......................$550</b></li>
+            <li><b>Completa.......................$550</b></li>
+        </ul>
+        <h3>Especiales</h3>
+        <dl>
+            <dt><b>Armando Barreda................$800</b></dt>
+            <dd>Doble carne, cheddar, panceta.</dd>
+            <dt><b>Seymour Skinner................$900</b></dt>
+            <dd>Doble carne, baño de cheddar.</dd>
+            <dt><b>Super intendente Charlmers.....$800</b></dt>
+            <dd>Doble carne, huevo frito, panceta, cebolla.</dd>
+            <dt><b>Viernes de siluetas............$800</b></dt>
+            <dd>Medallon de pollo, tomate y lechuga.</dd>
+        </dl>
+    </section>
+    <section>
+        <h2>Sucursales</h2>      
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Hamburguejas Centro</td>
+                <td><a href="https://goo.gl/maps/bYJxjqdiGNHKzE9S9"target="blank">Tte. Gral. Juan Domingo Perón 955, CABA.</a></td>
+                <td>L a S: 21hs a 01hs</td>
+            </tr>
+            <tr>
+                <td>Hamburguejas Sur</td>
+                <td><a href="https://goo.gl/maps/n5MEabxYFBF8dNYKA"target="blank">Laprida 860, avenida Belgrano 140, Lomas de Zamora.</a></td>
+                <td>L a S: 21hs a 01hs</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Pedidos</h2>  
+        <form action="">
+        <p>¿En cual sucursal quieres pedir?</p>  
+        <select>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Zona Sur</option>
+        </select>
+        <p>¿Cuál hamburguesa quieres?</p>
+        <input type="checkbox"id="simple"name="simple"value="simple">
+        <label for="simple">Simple</label>
+        <input type="number"id="cantSimple"name="cantSimple"placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox"id="lechuga"name="Lechuga"value="Lechuga">
+        <label for="Lechuga">Lechuga y tomate</label>
+        <input type="number"id="cantLechuga"name="cantLechuga"placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox"id="queso"name="queso"value="queso">
+        <label for="queso">Con queso</label>
+        <input type="number"id="cantQueso"name="cantQueso"placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox"id="completa"name="completa"value="completa">
+        <label for="completa">Completa</label>
+        <input type="number"id="cantCompleta"name="cantCompleta"placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox"id="armando"name="armando"value="armando">
+        <label for="armando">Armando Barreda</label>
+        <input type="number"id="cantArmando"name="cantArmando"placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox"id="seymour"name="seymour"value="seymour">
+        <label for="seymour">Seymour Skinner</label>
+        <input type="number"id="cantSeymour"name="cantSeymour"placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox"id="chalmers"name="chalmers"value="chalmers">
+        <label for="chalmers">Super intendente Chalmers</label>
+        <input type="number"id="cantChalmers"name="cantChalmers"placeholder="¿Cuántas?">
+        <br>
+        <input type="checkbox"id="siluetas"name="siluetas"value="siluetas">
+        <label for="siluetas">Viernes de Siluetas</label>
+        <input type="number"id="cantSiluetas"name="cantSiluetas"placeholder="¿Cuántas?">
+
+        <br><br>
+
+        <label for="nombre">¿A nombre de quién va el pedido?</label>
+        <br>
+        <input type="text"id="nombre"name="nombre"placeholder="Ingrese nombre">
+
+        <br><br>
+
+        <label for="direccion">¿A cuál dirección lo mandamos?</label>
+        <br>
+        <input type="text"id="direccion"name="direccion"placeholder="Ingrese dirección">
+
+        <br><br>
+
+        <label for="telefono">Déjenos un teléfono de contacto.</label>
+        <br>
+        <input type="text"id="telefono"name="telefono"placeholder="Ingrese teléfono">
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        </form>   
+    </section>
+</body>
+</html>

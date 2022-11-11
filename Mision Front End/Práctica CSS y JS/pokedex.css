@@ -1,0 +1,78 @@
+.titulo{
+    font-family:cursive;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    margin: auto;
+}
+
+.pokedex{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    width: 450px;
+    height: 200px;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+    
+    
+}
+
+.circulo {
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    background: #08B;
+    align-self: start;
+    position: relative;
+    top: 5px;
+    
+    }
+   
+.name{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   text-align: center;
+   background-color: rgb(224, 214, 214);
+   color:green;
+   text-transform: capitalize;
+   margin-top: auto;
+   position: relative;
+   top: 10px;
+}
+.image{
+    width: 120px;
+}
+.pokePhoto{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    max-width: 180px;       
+    margin-top: auto;
+}
+
+.v-line{
+    border-left: thick solid #000;
+    height: 100%;
+}
+
+.pokeInfo{
+    display: flex;
+    flex-direction:column;
+}
+.pokeScreen{
+    background-color: gray;
+    color: aqua;
+    width: 180px;
+    height: 60px;
+    font-size: 12;
+}
+#pokeName{
+    text-align: center;
+    text-transform: capitalize;   
+}
+
